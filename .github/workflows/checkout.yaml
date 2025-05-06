@@ -1,4 +1,4 @@
-name: Checkout
+name: Checkout Git Repo
 on: [push]
 jobs:
     checkout-action:
