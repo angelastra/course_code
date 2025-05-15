@@ -2,10 +2,7 @@ name: Repository Events
 on: 
   push:
     branches:
-      - main
-      - "feature/*"
-      - "feature/**"
-      - "!feature/featA"
+      - "!feature/feata"
     #branches-ignore:
     #  - develop
     tags:
